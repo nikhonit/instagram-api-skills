@@ -1,0 +1,35 @@
+{
+  "name": "instagram-api-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent skill for public Instagram data — profiles, posts, reels, comments, hashtags, places, ads and reel transcripts — through the Instadata API. Plain Node.js, zero dependencies.",
+  "homepage": "https://instadata.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikhonit/instagram-api-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikhonit/instagram-api-skills/issues"
+  },
+  "author": "Instadata",
+  "license": "MIT-0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "keywords": [
+    "instagram-api",
+    "instagram-scraper",
+    "instagram-data",
+    "reels-transcript",
+    "agent-skills",
+    "claude-skills",
+    "mcp",
+    "mcp-server",
+    "claude",
+    "cursor",
+    "instadata"
+  ]
+}

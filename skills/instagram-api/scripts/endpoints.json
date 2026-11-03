@@ -1,0 +1,198 @@
+[
+  {
+    "path": "/v1/instagram/transcript",
+    "input": "url",
+    "credits": "1 credit + 20 per started minute",
+    "desc": "Spoken words of a public reel or video post as plain text. 1 credit for the reel plus 20 per started minute of video.",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/summary",
+    "input": "url",
+    "credits": "4 credit + 20 per started minute",
+    "desc": "Short summary and key points of a public reel or video post, built on the same per-minute transcript. 4 credits plus 20 per started minute of video.",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/stats",
+    "input": "url",
+    "credits": "1 credit per post",
+    "desc": "",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/comments",
+    "input": "url",
+    "credits": "1 credit per comment, paginated",
+    "desc": "",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/channel-stats",
+    "input": "handle",
+    "credits": "1 credit per profile",
+    "desc": "",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/channel-posts",
+    "input": "handle",
+    "credits": "1 credit per post, paginated",
+    "desc": "",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/channel-reels",
+    "input": "handle",
+    "credits": "1 credit per reel, paginated",
+    "desc": "",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/reels-search",
+    "input": "query",
+    "credits": "1 credit per result, paginated",
+    "desc": "",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/download",
+    "input": "url",
+    "credits": "8 credits per video",
+    "desc": "",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/profile-full",
+    "input": "handle",
+    "credits": "1 credit per profile",
+    "desc": "",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/profile-about",
+    "input": "handle",
+    "credits": "4 credits per profile",
+    "desc": "",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/similar",
+    "input": "handle",
+    "credits": "1 credit per profile",
+    "desc": "",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/tagged",
+    "input": "handle",
+    "credits": "1 credit per post, paginated",
+    "desc": "",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/hashtag-posts",
+    "input": "query",
+    "credits": "1 credit per post, paginated",
+    "desc": "Posts that carry the hashtag.",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/hashtag-reels",
+    "input": "query",
+    "credits": "1 credit per reel, paginated",
+    "desc": "Reels only (video) that carry the hashtag.",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/keyword-search",
+    "input": "query",
+    "credits": "1 credit per result, paginated",
+    "desc": "Posts found by Instagram's keyword search, including posts that never used the word as a hashtag.",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/hashtag-stats",
+    "input": "query",
+    "credits": "1 credit per hashtag",
+    "desc": "Numbers for one hashtag you already know: post count, posts per day and related tags. Returns no posts.",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/hashtag-analytics",
+    "input": "query",
+    "credits": "4 credits per hashtag",
+    "desc": "Everything hashtag-stats returns for one hashtag, plus its current top posts.",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/hashtag-search",
+    "input": "query",
+    "credits": "1 credit per hashtag, paginated",
+    "desc": "Finds hashtags matching a keyword, each with its post count and related tags. Returns hashtags, not posts; use hashtag-posts for the posts.",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/profile-search",
+    "input": "query",
+    "credits": "1 credit per profile, paginated",
+    "desc": "",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/location-search",
+    "input": "query",
+    "credits": "1 credit per place, paginated",
+    "desc": "",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/location-stats",
+    "input": "query",
+    "credits": "1 credit per place",
+    "desc": "",
+    "paginated": false
+  },
+  {
+    "path": "/v1/instagram/location-posts",
+    "input": "query",
+    "credits": "1 credit per post, paginated",
+    "desc": "",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/mentions",
+    "input": "handle",
+    "credits": "1 credit per post, paginated",
+    "desc": "Posts by other accounts that tag or @-mention the profile, in the standard post shape.",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/ads-search",
+    "input": "query",
+    "credits": "3 credits per ad, paginated",
+    "desc": "Ads in the Meta Ad Library matching a keyword, with the advertiser's Instagram handle when it has one. 3 credits per ad.",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/ads-by-page",
+    "input": "query",
+    "credits": "3 credits per ad, paginated",
+    "desc": "Ads one advertiser is running, from its Facebook Page URL or Ad Library page URL passed as query. 3 credits per ad.",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/collaborations",
+    "input": "handle",
+    "credits": "3 credits per collaboration, paginated",
+    "desc": "Paid-partnership posts, reels and stories between a creator and brands, for a creator's or a brand's profile. 3 credits per row.",
+    "paginated": true
+  },
+  {
+    "path": "/v1/instagram/profile-comments",
+    "input": "handle",
+    "credits": "1 credit per comment, paginated",
+    "desc": "Recent comments across a profile's latest posts, one row per comment with the post it was left on. comments is for one post you already have.",
+    "paginated": true
+  }
+]

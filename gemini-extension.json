@@ -1,0 +1,15 @@
+{
+  "name": "instadata",
+  "version": "1.0.0",
+  "description": "Public Instagram data for Gemini CLI via the Instadata MCP server. Set INSTADATA_KEY (25 free credits at https://instadata.dev/signup?utm_source=gemini-cli).",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "instadata": {
+      "httpUrl": "https://mcp.instadata.dev",
+      "headers": {
+        "Authorization": "Bearer ${INSTADATA_KEY}"
+      },
+      "timeout": 60000
+    }
+  }
+}

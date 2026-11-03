@@ -1,0 +1,17 @@
+{
+  "name": "instagram-api-skills",
+  "version": "1.0.0",
+  "description": "Agent skill for public Instagram data through the Instadata API.",
+  "author": "Instadata",
+  "homepage": "https://instadata.dev",
+  "repository": "https://github.com/nikhonit/instagram-api-skills",
+  "license": "MIT-0",
+  "skills": [
+    {
+      "name": "instagram-api",
+      "path": "skills/instagram-api/SKILL.md",
+      "description": "Instagram data toolkit via Instadata — profiles, posts, reels, comments, hashtags, places, mentions, collaborations, Meta Ad Library ads, reel transcripts and summaries.",
+      "endpoints": 28
+    }
+  ]
+}
