@@ -1,8 +1,16 @@
 {
   "name": "instadata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Public Instagram data for Gemini CLI via the Instadata MCP server. Set INSTADATA_KEY (25 free credits at https://instadata.dev/signup?utm_source=gemini-cli).",
   "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Instadata API key",
+      "description": "Create a key at https://instadata.dev/app/keys. Sent only to the Instadata MCP endpoint.",
+      "envVar": "INSTADATA_KEY",
+      "sensitive": true
+    }
+  ],
   "mcpServers": {
     "instadata": {
       "httpUrl": "https://mcp.instadata.dev",
